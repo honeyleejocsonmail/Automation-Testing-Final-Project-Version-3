@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FinalProjectVersion3">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="base.CustomListeners" />
+	</listeners>
+	
+	<test name="Login Test">
+		<classes>
+			<class name="testcases.TestCase001_verifyLogin" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Verify Add Payee Test">
+		<classes>
+			<class name="testcases.TestCase002_verifyAddPayee" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Verify Transfer Fund Test">
+		<classes>
+			<class name="testcases.TestCase003_verifyTransferFund" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Verify Pay Bills Test">
+		<classes>
+			<class name="testcases.TestCase004_verifyPayBills" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Verify Online Statement Download Test">
+		<classes>
+			<class name="testcases.TestCase005_verifyOnlineStatementDownload" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

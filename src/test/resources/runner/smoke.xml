@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model with Page Factory">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="base.CustomListeners" />
+
+	</listeners>
+	<test name="Login Test">
+		<classes>
+			<class name="testcases.TC001Login" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
+
+

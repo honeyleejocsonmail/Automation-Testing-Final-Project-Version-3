@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2460" started-at="2020-09-24T14:51:41 EDT" finished-at="2020-09-24T14:51:44 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2460" started-at="2020-09-24T14:51:41 EDT" finished-at="2020-09-24T14:51:44 EDT">
+      <class name="testcases.TestCase001_verifyLogin">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TestCase001_verifyLogin@1184ab05]" name="init" is-config="true" duration-ms="5850" started-at="2020-09-24T14:51:36 EDT" finished-at="2020-09-24T14:51:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.TestCase001_verifyLogin@1184ab05]" name="verifylogin" duration-ms="2059" started-at="2020-09-24T14:51:42 EDT" data-provider="logindata" finished-at="2020-09-24T14:51:44 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestCase001_verifyLogin@1184ab05]" name="tearDown" is-config="true" duration-ms="782" started-at="2020-09-24T14:51:44 EDT" finished-at="2020-09-24T14:51:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase001_verifyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
